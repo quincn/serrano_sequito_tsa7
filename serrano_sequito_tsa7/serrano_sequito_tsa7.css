@@ -1,5 +1,5 @@
 body {
-    background-image: url("Solo-Leveling.gif");
+    background-image: url("Solo-Leveling.webp");
     background-attachment: fixed;   
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,10 +25,6 @@ nav {
     
 }
 
-.logo:hover{
-    color: #6518bd;
-    text-decoration: underline #6518bd 3px;
-}
 
 ul{
     list-style: none;
@@ -68,18 +64,16 @@ h1{
   animation: glow 2.5s ease-in-out infinite alternate;
     font-size: 1.5em;
     margin-top: 1em;
-    margin-right: 1100px;
     color: rgb(255, 255, 255);
-
+    margin-right: 1200px;
 }
 
 
 img{
-    width: 700px;
+    width: 500px;
     height: 300px;
     margin-bottom: 1em;
-    margin-right: 1100px;
-    margin-top: -10px;
+    margin-right: 1200px;
 }
 
 h2{
@@ -91,11 +85,10 @@ h2{
     border: none;
     padding: 0.5em 1em;
     font-size: 1.4em;
-    margin-right: 1100px;
-    margin-top: -30px;
     cursor: pointer;
+    margin-right: 1200px;
+    margin-top: -50px;
 }
-
 
 @-webkit-keyframes glow {
     from {
@@ -106,52 +99,139 @@ h2{
     }
   }
 
-@media only screen and (max-width: 1360px){
+@media only screen and (max-width: 1365px){
     main{
-        grid-template-columns: 4fr 3fr;
+        grid-template-columns: 1fr;
     }
 
     h1{
-        
+        font-size: 1.2em;
+        margin-left: 1200px;
+    }
+
+    img{
+        margin-left: 1200px;
+    }
+
+    h2{
+        margin-left: 1200px;
     }
 
     nav{
-        grid-template-columns: 3fr 1fr;
+        flex-direction: column;
+        align-items: center;
     }
     .logo{
-        
+        margin-bottom: 1em;
     }
     ul{
-        grid-template-columns: 5fr 4fr;
+        flex-direction: column;
+        align-items: center;
     }
     li {
-        
+        margin-bottom: 1em;
     }
 }
 
 @media only screen and (max-width: 1000px){
     main{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     h1{
-        
+        font-size: 1.2em;
+        margin-left: 1200px;
+    }
+
+    img{
+        margin-left: 1200px;
+    }
+
+    h2{
+        margin-left: 1200px;
     }
 
     nav{
-        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        align-items: center;
     }
     .logo{
-        
+        margin-bottom: 1em;
     }
     ul{
-        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
+        align-items: center;
     }
-    li{
-        
+    li {
+        margin-bottom: 1em;
     }
 }
 
+@media only screen and (max-width: 768px){
+    main{
+        grid-template-columns: 1fr;
+       
+    }
 
+    h1{
+        font-size: 1.2em;
+        margin-left: 1200px;
+    }
 
+    img{
+        margin-left: 1200px;
+    }
 
+    h2{
+        margin-left: 1200px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 1em;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    main{
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        font-size: 1.2em;
+        margin-left: 1200px;
+    }
+
+    img{
+        margin-left: 1200px;
+    }
+
+    h2{
+        margin-left: 1200px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        margin-bottom: 1em;
+    }
+    ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    li {
+        margin-bottom: 1em;
+    }
+}
